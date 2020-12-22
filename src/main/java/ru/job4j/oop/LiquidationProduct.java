@@ -6,7 +6,7 @@ public final class LiquidationProduct {
         product = new Product(name, price);
     }
 
-    @Override
+
     public String label() {
         return product.label();
     }
